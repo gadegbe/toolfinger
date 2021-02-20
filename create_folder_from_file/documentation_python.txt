@@ -1,0 +1,133 @@
+1. Mise en bouche
+2. Mode d'emploi de l'interpréteur Python
+	2.1. Lancement de l'interpréteur
+		2.1.1. Passage d'arguments
+		2.1.2. Mode interactif
+	2.2. L'interpréteur et son environnement
+		2.2.1. Encodage du code source
+3. Introduction informelle à Python
+	3.1. Utilisation de Python comme une calculatrice
+		3.1.1. Les nombres
+		3.1.2. Chaînes de caractères
+		3.1.3. Listes
+	3.2. Premiers pas vers la programmation
+4. D'autres outils de contrôle de flux
+	4.1. L'instruction if
+	4.2. L'instruction for
+	4.3. La fonction range()
+	4.4. Les instructions break, continue et les clauses else au sein des boucles
+	4.5. L'instruction pass
+	4.6. Définir des fonctions
+	4.7. Davantage sur la définition des fonctions
+		4.7.1. Valeur par défaut des arguments
+		4.7.2. Les arguments nommés
+		4.7.3. Paramètres spéciaux
+			4.7.3.1. Les arguments positionnels-ou-nommés
+			4.7.3.2. Paramètres positionnels uniquement
+			4.7.3.3. Arguments nommés uniquement
+			4.7.3.4. Exemples de fonctions
+			4.7.3.5. Récapitulatif
+		4.7.4. Listes d'arguments arbitraires
+		4.7.5. Séparation des listes d'arguments
+		4.7.6. Fonctions anonymes
+		4.7.7. Chaînes de documentation
+		4.7.8. Annotations de fonctions
+	4.8. Aparté : le style de codage
+5. Structures de données
+	5.1. Compléments sur les listes
+		5.1.1. Utilisation des listes comme des piles
+		5.1.2. Utilisation des listes comme des files
+		5.1.3. Compréhensions de listes
+		5.1.4. Compréhensions de listes imbriquées
+	5.2. L'instruction del
+	5.3. Tuples et séquences
+	5.4. Ensembles
+	5.5. Dictionnaires
+	5.6. Techniques de boucles
+	5.7. Plus d'informations sur les conditions
+	5.8. Comparer des séquences avec d'autres types
+6. Modules
+	6.1. Les modules en détail
+		6.1.1. Exécuter des modules comme des scripts
+		6.1.2. Les dossiers de recherche de modules
+		6.1.3. Fichiers Python « compilés »
+	6.2. Modules standards
+	6.3. La fonction dir()
+	6.4. Les paquets
+		6.4.1. Importer * depuis un paquet
+		6.4.2. Références internes dans un paquet
+		6.4.3. Paquets dans plusieurs dossiers
+7. Les entrées/sorties
+	7.1. Formatage de données
+		7.1.1. Les chaines de caractères formatées (f-strings)
+		7.1.2. La méthode de chaine de caractères format()
+		7.1.3. Formatage de chaînes à la main
+		7.1.4. Anciennes méthodes de formatage de chaînes
+	7.2. Lecture et écriture de fichiers
+		7.2.1. Méthodes des objets fichiers
+		7.2.2. Sauvegarde de données structurées avec le module json
+8. Erreurs et exceptions
+	8.1. Les erreurs de syntaxe
+	8.2. Exceptions
+	8.3. Gestion des exceptions
+	8.4. Déclencher des exceptions
+	8.5. Chaînage d'exceptions
+	8.6. Exceptions définies par l'utilisateur
+	8.7. Définition d'actions de nettoyage
+	8.8. Actions de nettoyage prédéfinies
+9. Classes
+	9.1. Objets et noms : préambule
+	9.2. Portées et espaces de nommage en Python
+		9.2.1. Exemple de portées et d'espaces de nommage
+	9.3. Une première approche des classes
+		9.3.1. Syntaxe de définition des classes
+		9.3.2. Objets classes
+		9.3.3. Objets instances
+		9.3.4. Objets méthode
+		9.3.5. Classes et variables d'instance
+	9.4. Remarques diverses
+	9.5. Héritage
+		9.5.1. Héritage multiple
+	9.6. Variables privées
+	9.7. Trucs et astuces
+	9.8. Itérateurs
+	9.9. Générateurs
+	9.10. Expressions et générateurs
+10. Survol de la bibliothèque standard
+	10.1. Interface avec le système d'exploitation
+	10.2. Jokers sur les noms de fichiers
+	10.3. Paramètres passés en ligne de commande
+	10.4. Redirection de la sortie d'erreur et fin d'exécution
+	10.5. Recherche de motifs dans les chaînes
+	10.6. Mathématiques
+	10.7. Accès à internet
+	10.8. Dates et heures
+	10.9. Compression de données
+	10.10. Mesure des performances
+	10.11. Contrôle qualité
+	10.12. Piles fournies
+11. Survol de la bibliothèque standard -- Deuxième partie
+	11.1. Formatage de l'affichage
+	11.2. Gabarits (templates en anglais)
+	11.3. Traitement des données binaires
+	11.4. Fils d'exécution
+	11.5. Journalisation
+	11.6. Références faibles
+	11.7. Outils pour les listes
+	11.8. Arithmétique décimale à virgule flottante
+12. Environnements virtuels et paquets
+	12.1. Introduction
+	12.2. Création d'environnements virtuels
+	12.3. Gestion des paquets avec pip
+13. Pour aller plus loin
+14. Édition interactive des entrées et substitution d'historique
+	14.1. Complétion automatique et édition de l'historique
+	14.2. Alternatives à l'interpréteur interactif
+15. Arithmétique en nombres à virgule flottante : problèmes et limites
+	15.1. Erreurs de représentation
+16. Annexe
+	16.1. Mode interactif
+		16.1.1. Gestion des erreurs
+		16.1.2. Scripts Python exécutables
+		16.1.3. Configuration du mode interactif
+		16.1.4. Modules de personnalisation
